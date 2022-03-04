@@ -1,0 +1,563 @@
+.gothic {
+  font-family: "GmarketSansMedium";
+}
+.constantia {
+  font-family: "Constantia";
+}
+.con {
+  width: 1920px;
+}
+.section-group {
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+  height: 100vh;
+  scroll-behavior: smooth;
+}
+.section-group > .con {
+  scroll-snap-align: start;
+  box-sizing: border-box;
+}
+
+/* 상단바 */
+.filter {
+  top: calc(100% + 300px);
+  left: 0;
+  width: 1920px;
+  height: 5000px;
+  visibility: hidden;
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: rgba(0, 0, 0, 0.6);
+}
+.menu ul:hover .filter {
+  visibility: visible;
+}
+.active-1 {
+  display: none;
+}
+
+.header {
+  height: 90px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.8);
+  color: rgba(255, 255, 255, 1);
+}
+.menu > ul {
+  justify-content: flex-start;
+  font-size: 18px;
+}
+.menu > ul::before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  height: 300px;
+  background-color: #ffffff;
+  z-index: -1;
+  visibility: hidden;
+  border-bottom: 1px solid #232323;
+  border-top: 1px solid #c4c4c4;
+}
+.menu > ul::after {
+  content: "";
+  position: absolute;
+  top: 117%;
+  left: 27.9%;
+  width: 1px;
+  height: 270px;
+  background-color: #23232344;
+  visibility: hidden;
+}
+.menu > ul:hover::before {
+  visibility: visible;
+}
+.menu > ul:hover::after {
+  visibility: visible;
+}
+
+.menu > ul > li {
+  position: relative;
+}
+.menu > ul ul {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  padding: 30px 0;
+  color: #232323;
+  font-size: 14px;
+}
+.menu > ul:hover > li > ul {
+  display: block;
+}
+.menu > ul ul li > a {
+  padding: 5px 0;
+  line-height: 20px;
+}
+.menu > ul ul li:hover > a {
+  text-decoration: underline;
+  text-underline-position: under;
+}
+.menu > ul ul li {
+  margin-top: 3px;
+}
+.menu > ul ul li:hover > a {
+  font-weight: bold;
+}
+.menu > ul > li > a {
+  position: relative;
+}
+.menu > ul > li > a::before {
+  content: "";
+  position: absolute;
+  bottom: -1px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0%;
+  height: 1px;
+  background-color: #232323;
+  transition: width 0.4s;
+}
+.menu > ul > li > a:hover::before {
+  width: 100%;
+}
+.menu > ul > li > a + div {
+  display: none;
+}
+.menu > ul > li > a:hover + div {
+  display: block;
+}
+.menu > ul ul > div {
+  display: none;
+}
+.menu > ul ul:hover > div {
+  display: block;
+}
+.active {
+  background-color: white;
+  color: #232323;
+  border-color: #232323;
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
+  height: 60px;
+  -webkit-transition-duration: 0.4s;
+  -webkit-transition-timing-function: ease;
+}
+
+.deactive {
+  color: #ffffff;
+  background-color: transparent;
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
+  -webkit-transition-duration: 0.4s;
+  -webkit-transition-timing-function: ease;
+}
+.add {
+  display: none;
+}
+.add-1 {
+  display: block;
+}
+
+/* main-1 */
+.act {
+  display: block;
+}
+div.room > ul {
+  display: none;
+}
+div.room:hover > ul {
+  display: block;
+}
+div.room > ul > li {
+  border-bottom: 1px dotted #232323;
+}
+div.room > ul > li:hover > a {
+  font-weight: bold;
+}
+.text__middle > .calendar_container {
+  display: none;
+}
+.text__middle:hover > .calendar_container {
+  display: block;
+}
+.calendar_container > button {
+  font-weight: bold;
+  height: 10%;
+  position: absolute;
+  top: 20px;
+}
+
+button.left_button {
+  margin-left: 13%;
+  border: transparent;
+  color: #232323;
+}
+
+button.right_button {
+  margin-left: 450px;
+  border: transparent;
+  color: #232323;
+}
+
+.calendar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4%;
+  margin-right: 2.5%;
+  color: #232323;
+  font-size: 14px;
+}
+.title1 {
+  font-size: 18px;
+}
+
+.calendar_days > button {
+  width: 55px;
+  height: 54px;
+  border-radius: 100%;
+  background-color: transparent;
+  border: transparent;
+}
+
+table {
+  border-collapse: separate;
+  border-spacing: 0 10px;
+}
+
+.day {
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  color: rgb(189, 189, 189);
+}
+
+div {
+  transform: trans;
+}
+.day_hover {
+  border: 1px solid black !important;
+}
+
+.day_selected {
+  background-color: black !important;
+  color: #ffff;
+}
+
+.gray {
+  background-color: rgb(241, 241, 241) !important;
+}
+
+/* main-2 */
+.ROOM {
+  position: relative;
+  background: #fff;
+  z-index: 1;
+}
+
+.ROOM_title > h1 {
+  display: block;
+  font-size: 58px;
+  position: absolute;
+  top: 250px;
+  left: 800px;
+  font-family: "Constantia";
+}
+
+.ROOM_title > span {
+  font-size: 20px;
+  position: absolute;
+  top: 350px;
+  left: 800px;
+  line-height: 1.2em;
+  padding-right: 200px;
+  font-size: 18px;
+}
+/*  
+.ROOM_title_bt{
+  position:absolute;
+  top:500px;
+  right:200px;  
+  font-size:18px;
+  font-weight:bold;
+  padding: 0.8em 1em;
+  font-size: 1em;
+  font-weight: bold;
+    letter-spacing:2px;
+  
+}
+
+.bt-01 {
+  background:#232323;
+  color:#FFF;
+  
+}
+
+.bt-02 {
+  margin-right:120px;
+  border:1px solid #232323;
+}
+
+*/
+
+.bt-container {
+  display: flex;
+  position: absolute;
+  top: 600px;
+  right: 200px;
+}
+
+.room-button {
+  color: rgb(97, 67, 67);
+  font-size: 16px;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: block;
+  border: 1px solid rgb(97, 67, 67);
+  padding: 15px 12px 13px 12px;
+  position: relative;
+  transition: all 0.3s ease-in-out;
+  overflow: hidden;
+  margin-right: 20px;
+}
+.room-button::before {
+  content: "";
+  position: absolute;
+  top: 1;
+  left: 0;
+  right: -50px;
+  bottom: 0;
+  border-right: 50px solid transparent;
+  border-bottom: 66px solid rgb(97, 67, 67);
+  transform: translateX(-100%);
+  z-index: -1;
+  transition: all 0.3s ease-in-out;
+}
+.room-button:hover::before {
+  transform: translateX(0);
+}
+.room-button:hover {
+  color: white;
+}
+
+.horizontal-collapse {
+  width: 500;
+  height: 682px;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 5rem;
+  color: #fff;
+  position: absolute;
+  top: 200px;
+  left: 0px;
+}
+
+.horizontal-collapse__inner {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+}
+
+.horizontal-collapse__item {
+  min-height: 42rem;
+  list-style: none;
+  padding: 0;
+  overflow: hidden;
+  min-width: 100px;
+  max-width: 1600px;
+  position: relative;
+  transition: width 0.5s;
+}
+
+.horizontal-collapse__item--1 {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("https://cdn.jsdelivr.net/gh/seoungmohwa/N-nanda-img/project/Room-01.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.horizontal-collapse__item--2 {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("https://cdn.jsdelivr.net/gh/seoungmohwa/N-nanda-img/project/ROOM_02.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.horizontal-collapse__item--3 {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("https://cdn.jsdelivr.net/gh/seoungmohwa/N-nanda-img/project/ROOM-03.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.horizontal-collapse__item--4 {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(https://cdn.jsdelivr.net/gh/seoungmohwa/N-nanda-img/project/ROOM-04.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.horizontal-collapse__item.is-active .horizontal-collapse__inactive-content {
+  opacity: 0;
+}
+
+.horizontal-collapse__item.is-active .horizontal-collapse__active-content {
+  opacity: 1;
+}
+
+.horizontal-collapse__item-inner {
+  padding: 4em;
+}
+
+/* 메인 타이틀 */
+.horizontal-collapse__inactive-content {
+  opacity: 1;
+  transition: opacity 0.5s;
+  position: absolute;
+  bottom: 10rem;
+  left: 1rem;
+}
+
+.horizontal-collapse__inactive-content .horizontal-collapse__heading {
+  user-select: none;
+  cursor: default;
+  font-size: 2.2em;
+  line-height: 0;
+  margin-bottom: -100px;
+  margin-left: 40px;
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  transform: rotate(360deg);
+}
+
+.horizontal-collapse__active-content {
+  opacity: 0;
+  transition: opacity 0.5s;
+  cursor: default;
+}
+
+.horizontal-collapse__heading {
+  margin-top: 0;
+  margin-bottom: 0.4em;
+  font-size: 2.2em;
+}
+
+/* 자세히 버튼 */
+.horizontal-collapse__body {
+  margin-bottom: 1em;
+  font-size: 1.2em;
+}
+
+.horizontal-collapse__link {
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+  line-height: 1;
+  padding: 0.8em 1em;
+  border: 1px solid #fff;
+  font-size: 0.9em;
+  font-weight: bold;
+}
+
+/*main-3*/
+.title {
+  display: inline-block;
+  font-size: 58px;
+  margin-top: 76px;
+  margin-bottom: 50px;
+  margin-left: 144px;
+}
+
+.content {
+  display: flex;
+  margin-left: 132px;
+}
+
+.offer__card {
+  margin-right: 28px;
+  position: relative;
+}
+
+.card-text {
+  font-size: 22px;
+}
+
+.offer__card__text__down {
+  margin-top: 34px;
+}
+
+.offer__card__text__up {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.offer__card__img__down {
+  margin-top: 80px;
+}
+
+.offer__card__img {
+  width: 400px;
+  height: 490px;
+  overflow: hidden;
+}
+
+.offer__card__img > a > img {
+  width: 100%;
+  height: 100%;
+  transform: scale(1.2);
+  transition: 0.3s ease-in-out;
+}
+
+.offer__card__img:hover > a > img {
+  transform: scale(1.1);
+}
+
+/*main-4*/
+.swiper-box-1 {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1400px;
+  height: 950px;
+  position: relative;
+  --swiper-navigation-color: gray;
+  --swiper-navigation-size: 1rem;
+}
+
+.swiper-box-1 .swiper {
+  height: 950px;
+}
+
+.swiper-box-1 :is(.swiper-button-next, .swiper-button-prev) {
+  top: 120%;
+}
+.txt-2 > h3 {
+  color: #614343;
+}
+
+/*main-5*/
+.swiper-box-2 {
+  margin-left: auto;
+  margin-right: 320px;
+  width: 850px;
+  height: 550px;
+  position: relative;
+  --swiper-navigation-color: gray;
+  --swiper-navigation-size: 1rem;
+}
+
+.swiper-box-2 .swiper {
+  height: 550px;
+}
+
+.swiper-box-2 :is(.swiper-button-next, .swiper-button-prev) {
+  top: 120%;
+}

@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>서브메뉴 다이닝</title>
+     <!--테일윈드-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css">
+    <!--폰트어썸-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!--제이쿼리-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!--스와이퍼-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.8.4/swiper-bundle.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.8.4/swiper-bundle.min.js"></script>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    
+
+    
+    <link rel="stylesheet" href="common.css">
+    <script src="common.js"></script>
+
+    <link rel="stylesheet" href="sub_02.css">
+    <script src="sub_02.js" defer></script>
+ 
+
+</head>
+<body>
+    <section >
+        <section id="main" class="con mx-auto relative" style="height:1000px;">
+          <!-- 상단바 -->
+        <section class="header fixed bg-white" style="z-index:400; width:1920px;">
+            <div class="top-bar gothic flex h-full">
+              <div class="logo flex h-full items-center">
+                <a href="#" style="margin-left:68px;"><img src="https://cdn.jsdelivr.net/gh/seoungmohwa/N-nanda-img/webimg/logo_2323.png" alt="" class="logo-image">
+                  <img src="https://i.imgur.com/VXBhK9C.png" alt="" class="logo-image2 add" style="margin-top:-58.5px; margin-left:1px;">
+                </a>
+                <a href="index.html" class="constantia " style="font-size:28px; padding-left:10px; letter-spacing:2px;"><span>FOURSEASONS</span></a>
+              </div>
+              <div class="flex-grow"></div>
+              <nav class="menu h-full flex items-center gothic " style="font-size:20px; margin-right:70px;">
+                <ul class="flex h-full constantia">
+                  <li class="h-full flex"><a href="index.html" class="px-9 h-full items-center flex "><span>RESERVATION</span></a>
+                        <div class="img-1 absolute" style="top:calc((100% + 40px) + 1px); right:calc(100% + 210px); width:327px; height:249px;"><img src="https://cdn.jsdelivr.net/gh/seoungmohwa/N-nanda-img/webimg/top_01.png" title="리저베이션.png"></div>
+                    <ul class="gothic" style="margin-top:1px; height:300px;">
+                        <div class="img-1 absolute " style="top:40px; right:calc(100% + 210px); width:327px; height:249px;"><img src="https://cdn.jsdelivr.net/gh/seoungmohwa/N-nanda-img/webimg/top_01.png" title="리저베이션.png"></div>
+                      <li><a href="sub_01.html" class="block"><span>ROOMS</span></a>
+                      </li>
+                      <li><a href="sub_02.html" class="block"><span>DINNING</span></a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="h-full flex"><a href="#offer" class="px-9 h-full items-center flex"><span>OFFERS</span></a>  <div class="img-1 absolute" style="top:calc((100% + 40px) + 1px); right:calc(100% + 400.8px); width:327px; height:249px;"><img src="https://cdn.jsdelivr.net/gh/seoungmohwa/N-nanda-img/webimg/top_02.png" title="offer.png"></div>
+                    <ul class="gothic" style="margin-top:1px; height:300px;">
+                      <div class="img-1 absolute " style="top:40px; right:calc(100% + 400.8px); width:327px; height:249px;"><img src="https://cdn.jsdelivr.net/gh/seoungmohwa/N-nanda-img/webimg/top_02.png" title="offer.png"></div>
+                      <li><a href="#" class="block cursor-default"><span>
+                            PACKAGE
+                          </span></a></li>
+      
+                      <li><a href="#" class="block cursor-default"><span>
+                            EVENT
+                          </span></a></li>
+                    </ul>
+                  </li>
+                  <li class="h-full flex"><a href="#life" class="px-9 h-full items-center flex"><span>LIFE STYLE</span></a>  <div class="img-1 absolute" style="top:calc((100% + 40px) + 1px); right:calc(100% + 537.68px); width:327px; height:249px;"><img src="https://cdn.jsdelivr.net/gh/seoungmohwa/N-nanda-img/webimg/top_04.png" title="life.png"></div>
+                    <ul class="gothic" style="margin-top:1px; height:300px;">
+                 <div class="img-1 absolute " style="top:40px; right:calc(100% + 537.68px); width:327px; height:249px;"><img src="https://cdn.jsdelivr.net/gh/seoungmohwa/N-nanda-img/webimg/top_04.png" title=".png"></div>    
+                      <li><a href="#" class="block cursor-default "><span>
+                            POOL
+                          </span></a></li>
+                      <li><a href="#" class="block cursor-default"><span>
+                            SPA
+                          </span></a></li>
+                      <li><a href="#" class="block cursor-default"><span>
+                            WEDDING
+                          </span></a></li>
+                    </ul>
+                  </li>
+                  <li class="h-full flex"><a href="#" class="px-9 h-full items-center flex cursor-default"><span>MEMBERSHIP</span></a>
+                     <div class="img-1 absolute" style="top:calc((100% + 40px) + 1px); right:calc(100% + 702.26px); width:327px; height:249px;"><img src="https://cdn.jsdelivr.net/gh/seoungmohwa/N-nanda-img/webimg/top_03.png" title="member.png"></div> 
+                    <ul class="gothic " style="margin-top:1px; height:300px;">
+                    <div class="img-1 absolute " style="top:40px; right:calc(100% + 702.26px); width:327px; height:249px;"><img src="https://cdn.jsdelivr.net/gh/seoungmohwa/N-nanda-img/webimg/top_03.png" title="member.png"></div>
+                      <li><a href="#" class="block cursor-default"><span>
+                            EVENT
+                          </span></a></li>
+                      <li><a href="#" class="block cursor-default"><span>
+                            NEWS
+                          </span></a></li>
+                    </ul>
+                  </li>
+                  <li class="h-full flex"><a href="#" class="px-9 h-full items-center flex cursor-default"><span>MY PAGE</span></a>
+                     <div class="img-1 absolute " style="top:calc((100% + 40px) + 1px); right:calc(100% + 890px); width:327px; height:249px;"><img src="https://cdn.jsdelivr.net/gh/seoungmohwa/N-nanda-img/project/mypage.png" title="mypage.png"></div>  
+                    <ul class="gothic " style="margin-top:1px; height:300px;">
+                    <div class="img-1 absolute " style="top:40px; right:calc(100% + 890px); width:327px; height:249px;"><img src="https://cdn.jsdelivr.net/gh/seoungmohwa/N-nanda-img/project/mypage.png" title="mypage.png"></div>  
+                      <li><a href="#" class="block cursor-default"><span>
+                            POINT
+                          </span></a></li>
+                      <li><a href="#" class="block cursor-default"><span>
+                            COUPON
+                          </span></a></li>
+                    </ul>
+                  </li>
+                  <li class="h-full flex"><a href="#" class="px-9 h-full items-center flex cursor-default"><span>ABOUT US</span></a>
+                    <div class="img-1 absolute " style="top:calc((100% + 40px) + 1px); right:calc(100% + 1036px); width:327px; height:249px;"><img src="https://cdn.jsdelivr.net/gh/seoungmohwa/N-nanda-img/project/about us.png" title="about.png"></div>
+                    <ul class="gothic " style="margin-top:1px; height:300px;">
+                    <div class="img-1 absolute " style="top:40px; right:calc(100% + 1036px); width:327px; height:249px;"><img src="https://cdn.jsdelivr.net/gh/seoungmohwa/N-nanda-img/project/about us.png" title="about.png"></div>  
+                      <li><a href="#" class="block cursor-default"><span>
+                            ABOUT US
+                          </span></a></li>
+                      <li><a href="#" class="block cursor-default"><span>
+                            HISTORY
+                          </span></a></li>
+                      <li><a href="#" class="block cursor-default"><span>
+                            AWARDS
+                          </span></a></li>
+                      <li><a href="#" class="block cursor-default"><span>
+                            MAP
+                          </span></a></li>
+                    </ul>
+                  </li>
+                  <div class="filter absolute"></div>
+                </ul>
+              </nav>
+                        <a href="#" class="flex flex-end items-center h-full px-4 text-sm"><span><i class="fa-regular fa-user mr-1"></i>로그인</span></a>
+              <a href="#" class="flex flex-end items-center h-full pl-4 pr-8 text-sm mr-3"><span class="">예약확인</span></a>
+            </div>
+            </div>
+          </section>
+          <!-- main-1 -->
+          <div class="sub-02">
+            <img src="https://cdn.jsdelivr.net/gh/seoungmohwa/N-nanda-img/project/sub-02.png" alt="">
+          </div>
+          <!-- footer -->
+          <section class="con mx-auto" style="height:200px;">
+          <div class="footer w-full h-full relative" style="background-color:#232323; color:#ffffff;">
+            <div class="logo constantia absolute" style="font-size:22px; top:80.94px; left:309px;">
+              <a href="#"><span>FOURSEASONS</span></a>
+            </div>
+            <div class="p1 gothic absolute" style="font-size:14px; top:85.66px; left:604px;">
+              <a href="#" class="mr-6"><span>사이트맵</span></a>
+              <a href="#" class="mr-6"><span>고객센터</span></a>
+              <a href="#" class="mr-6"><span>이용약관</span></a>
+              <a href="#" class="mr-6"><span>멤버십 이용약관</span></a>
+              <a href="#" class="mr-6"><span>금액권 및 제품교환권 이용약관</span></a>
+              <a href="#"><span>개인정보처리방침</span></a>
+            </div>
+            <div class="p2 gothic absolute" style="font-size:14px; top:106px; left:604px;">
+              <a href="#" class="mr-6"><span>영상정보처리기기운영·관리방침</span></a>
+              <a href="#"><span>이메일무단수집금지</span></a>
+            </div>
+            <div class="p3 gothic absolute" style="font-size:12px; color:#bababa; top:134.4px; left:604px;">
+              <a href="#"><span>서울 종로구 새문안로 97 (당주동, 우편번호 03183)</span></a>
+              <br>
+              <a href="#"><span>2022 fourseasons ALL rights reserved </span></a>
+            </div>
+            <div class="icon">
+              <a href="#" class="absolute" style="top:84.75px; left:1475px;"><img src="https://cdn.jsdelivr.net/gh/seoungmohwa/N-nanda-img/webimg/ch.png" alt="" class=""></a>
+              <a href="#" class="absolute" style="top:84.75px; left:1525px;"><img src="https://cdn.jsdelivr.net/gh/seoungmohwa/N-nanda-img/webimg/sns.png" alt=""></a>
+              <a href="#" class="absolute" style="top:84.75px; left:1575px;"><img src="https://cdn.jsdelivr.net/gh/seoungmohwa/N-nanda-img/webimg/sns_01.png" alt=""></a>
+            </div>
+          </div>
+        </section>
+        </section>
+      
+      </section>
+</body>
+</html>

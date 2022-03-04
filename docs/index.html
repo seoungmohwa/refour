@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME | 포시즌스</title>
+    <!--테일윈드-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css">
+    <!--제이쿼리-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!--폰트어썸-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!--스와이퍼-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.8.4/swiper-bundle.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.8.4/swiper-bundle.min.js"></script>
+    <!--스와이퍼-->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <scrip src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+
+    <link rel="stylesheet" href="common.css">
+    <script src="common.js"></script>
+
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js" defer></script>
+    
+</head>
+<body>
+    <section class="section-group">
+        <section id="main" class="con mx-auto relative" style="height:1000px;">
+          <!-- 상단바 -->
+      <section class="header fixed" style="z-index:400; width:1920px;">
+            <div class="top-bar gothic flex h-full">
+              <div class="logo flex h-full items-center">
+                <a href="#" style="margin-left:68px;"><img src="https://cdn.jsdelivr.net/gh/seoungmohwa/N-nanda-img/webimg/logo_fff.png" alt="" class="logo-image">
+                  <img src="https://cdn.jsdelivr.net/gh/seoungmohwa/N-nanda-img/webimg/logo_2323.png" alt="" class="logo-image2 add" style="margin-top:-58.5px; margin-left:1px;">
+                </a>
+                <a href="#main" class="constantia " style="font-size:28px; padding-left:10px; letter-spacing:2px;"><span>FOURSEASONS</span></a>
+              </div>
+              <div class="flex-grow"></div>
+              <nav class="menu h-full flex items-center gothic " style="font-size:20px; margin-right:70px;">
+                <ul class="flex h-full constantia">
+                  <li class="h-full flex"><a href="#" class="px-9 h-full items-center flex "><span>RESERVATION</span></a>
+                        <div class="img-1 absolute" style="top:calc((100% + 40px) + 1px); right:calc(100% + 210px); width:327px; height:249px;"><img src="https://cdn.jsdelivr.net/gh/seoungmohwa/N-nanda-img/webimg/top_01.png" title="리저베이션.png"></div>
+                    <ul class="gothic" style="margin-top:1px; height:300px;">
+                        <div class="img-1 absolute " style="top:40px; right:calc(100% + 210px); width:327px; height:249px;"><img src="https://cdn.jsdelivr.net/gh/seoungmohwa/N-nanda-img/webimg/top_01.png" title="리저베이션.png"></div>
+                      <li><a href="sub_01.html" class="block"><span>ROOMS</span></a>
+                      </li>
+                      <li><a href="sub_02.html" class="block"><span>DINNING</span></a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="h-full flex"><a href="#offer" class="px-9 h-full items-center flex"><span>OFFERS</span></a>  <div class="img-1 absolute" style="top:calc((100% + 40px) + 1px); right:calc(100% + 400.8px); width:327px; height:249px;"><img src="https://cdn.jsdelivr.net/gh/seoungmohwa/N-nanda-img/webimg/top_02.png" title="offer.png"></div>
+                    <ul class="gothic" style="margin-top:1px; height:300px;">
+                      <div class="img-1 absolute " style="top:40px; right:calc(100% + 400.8px); width:327px; height:249px;"><img src="https://cdn.jsdelivr.net/gh/seoungmohwa/N-nanda-img/webimg/top_02.png" title="offer.png"></div>
+                      <li><a href="#" class="block cursor-default"><span>
+                            PACKAGE
+                          </span></a></li>
+      
+                      <li><a href="#" class="block cursor-default"><span>
+                            EVENT
+                          </span></a></li>
+                    </ul>
+                  </li>
+                  <li class="h-full flex"><a href="#life" class="px-9 h-full items-center flex"><span>LIFE STYLE</span></a>  <div class="img-1 absolute" style="top:calc((100% + 40px) + 1px); right:calc(100% + 537.68px); width:327px; height:249px;"><img src="https://cdn.jsdelivr.net/gh/seoungmohwa/N-nanda-img/webimg/top_04.png" title="life.png"></div>
+                    <ul class="gothic" style="margin-top:1px; height:300px;">
+                 <div class="img-1 absolute " style="top:40px; right:calc(100% + 537.68px); width:327px; height:249px;"><img src="https://cdn.jsdelivr.net/gh/seoungmohwa/N-nanda-img/webimg/top_04.png" title=".png"></div>    
+                      <li><a href="#" class="block cursor-default "><span>
+                            POOL
+                          </span></a></li>
+                      <li><a href="#" class="block cursor-default"><span>
+                            SPA
+                          </span></a></li>
+                      <li><a href="#" class="block cursor-default"><span>
+                            WEDDING
+                          </span></a></li>
+                    </ul>
+                  </li>
+                  <li class="h-full flex"><a href="#" class="px-9 h-full items-center flex cursor-default"><span>MEMBERSHIP</span></a>
+                     <div class="img-1 absolute" style="top:calc((100% + 40px) + 1px); right:calc(100% + 702.26px); width:327px; height:249px;"><img src="https://cdn.jsdelivr.net/gh/seoungmohwa/N-nanda-img/webimg/top_03.png" title="member.png"></div> 
+                    <ul class="gothic " style="margin-top:1px; height:300px;">
+                    <div class="img-1 absolute " style="top:40px; right:calc(100% + 702.26px); width:327px; height:249px;"><img src="https://cdn.jsdelivr.net/gh/seoungmohwa/N-nanda-img/webimg/top_03.png" title="member.png"></div>
+                      <li><a href="#" class="block cursor-default"><span>
+                            EVENT
+                          </span></a></li>
+                      <li><a href="#" class="block cursor-default"><span>
+                            NEWS
+                          </span></a></li>
+                    </ul>
+                  </li>
+                  <li class="h-full flex"><a href="#" class="px-9 h-full items-center flex cursor-default"><span>MY PAGE</span></a>
+                     <div class="img-1 absolute " style="top:calc((100% + 40px) + 1px); right:calc(100% + 890px); width:327px; height:249px;"><img src="https://cdn.jsdelivr.net/gh/seoungmohwa/N-nanda-img/project/mypage.png" title="mypage.png"></div>  
+                    <ul class="gothic " style="margin-top:1px; height:300px;">
+                    <div class="img-1 absolute " style="top:40px; right:calc(100% + 890px); width:327px; height:249px;"><img src="https://cdn.jsdelivr.net/gh/seoungmohwa/N-nanda-img/project/mypage.png" title="mypage.png"></div>  
+                      <li><a href="#" class="block cursor-default"><span>
+                            POINT
+                          </span></a></li>
+                      <li><a href="#" class="block cursor-default"><span>
+                            COUPON
+                          </span></a></li>
+                    </ul>
+                  </li>
+                  <li class="h-full flex"><a href="#" class="px-9 h-full items-center flex cursor-default"><span>ABOUT US</span></a>
+                    <div class="img-1 absolute " style="top:calc((100% + 40px) + 1px); right:calc(100% + 1036px); width:327px; height:249px;"><img src="https://cdn.jsdelivr.net/gh/seoungmohwa/N-nanda-img/project/about us.png" title="about.png"></div>
+                    <ul class="gothic " style="margin-top:1px; height:300px;">
+                    <div class="img-1 absolute " style="top:40px; right:calc(100% + 1036px); width:327px; height:249px;"><img src="https://cdn.jsdelivr.net/gh/seoungmohwa/N-nanda-img/project/about us.png" title="about.png"></div>  
+                      <li><a href="#" class="block cursor-default"><span>
+                            ABOUT US
+                          </span></a></li>
+                      <li><a href="#" class="block cursor-default"><span>
+                            HISTORY
+                          </span></a></li>
+                      <li><a href="#" class="block cursor-default"><span>
+                            AWARDS
+                          </span></a></li>
+                      <li><a href="#" class="block cursor-default"><span>
+                            MAP
+                          </span></a></li>
+                    </ul>
+                  </li>
+                  <div class="filter absolute"></div>
+                </ul>
+              </nav>
+                        <a href="#" class="flex flex-end items-center h-full px-4 text-sm"><span><i class="fa-regular fa-user mr-1"></i>로그인</span></a>
+              <a href="#" class="flex flex-end items-center h-full pl-4 pr-8 text-sm mr-3"><span class="">예약확인</span></a>
+            </div>
+            </div>
+          </section>
+          <!-- main-1 -->
+          <div class="main-1" style="height:1000px;">
+            <img src="https://cdn.jsdelivr.net/gh/seoungmohwa/N-nanda-img/webimg/main.png" alt="" class="main-1__img absolute" style="top:0; left:0; height:100%; width:100%;">
+            <h1 class="absolute constantia" style="color:#ffffff; font-size:58px; top:502px; left:189px;"><span>ELEGANCE IN THE VERY HEART OF SEOUL</span></h1>
+            <h2 class="absolute gothic" style="color:#ffffff; font-size:22px; top:470px; left:189px;"><span>WELCOME TO FOURSEASONS </span></h2>
+            <div class="absolute gothic" style="width:1186px; height:68px; background-color:none; border:1px solid #ffffff; top:606px; left:189px;">
+            </div>
+            <a href="#">
+              <div class="absolute gothic" style="width:181px; height:66px; background-color:rgba(255,255,255,.1); top:606px; left:1194px;"></div>
+            </a>
+            <div class="absolute text text__small gothic" style="font-size:10px; color:rgba(255,255,255,.5); top:620px; left:214px;"><span>RESERVATION</span></div>
+            <div class="absolute text text__small gothic" style="font-size:10px; color:rgba(255,255,255,.5); top:620px; left:450px;"><span>CHECK IN / OUT</span></div>
+            <div class="absolute text text__small gothic" style="font-size:10px; color:rgba(255,255,255,.5); top:620px; left:948px;"><span>ROOM</span></div>
+            <div class="absolute text text__small gothic" style="font-size:10px; color:rgba(255,255,255,.5); top:620px; left:1035px;"><span>ADULT</span></div>
+            <div class="absolute text text__small gothic" style="font-size:10px; color:rgba(255,255,255,.5); top:620px; left:1117px;"><span>CHILDREN</span></div>
+            <div class="room relative gothic " style="top:607px; left:190px; width:169px; height:67px; background-color:none; cursor:pointer; z-index:30;">
+              <ul class="absolute ul" style="bottom:100%; width:100%; height:201px; background-color:#ffffff; font-size:14px; color:#232323;">
+                <li class="flex items-center justify-center" style="height:67px; width:100%; text-align:center;"><a href="#"><span>ROOM</span></a></li>
+                <li class="flex items-center justify-center" style="height:67px; width:100%; text-align:center;"><a href="#"><span>DINNING</span></a></li>
+                <li class="flex items-center justify-center" style="height:67px; width:100%; text-align:center;"><a href="#"><span>MEMBERSHIP</span></a></li>
+      
+              </ul>
+            </div>
+            <div class="absolute text text__middle gothic" style="font-size:18px; color:rgba(255,255,255,1); top:639px; left:214px;"><a href="#"><span>ROOM</span></a></div>
+            <div class="main__arr-1 absolute" style="top:640px; left:319px;"><a href="#"><img src="https://i.imgur.com/wgTRIy7.png" alt=""></a></div>
+            <div class="absolute line main__line-1" style="top:620px; left:358px;"><img src="https://i.imgur.com/haqkIuh.png" alt=""></div>
+            <div class="relative text text__middle gothic" style="font-size:18px; color:rgba(255,255,255,1); top:540px; left:360px; width:532px; padding-top:30px; cursor:pointer;padding-left:90px;"><span>2022.03.01 화 - 2022.03.03 목</span>
+              <div class="calendar_container absolute flex justify-evenly" style="width:532px; background-color:#ffffff; bottom:96%;left:0; z-index:500;">
+      
+                <button class="left_button inline "> &lt </button>
+                <button class="right_button inline "> > </button>
+                <table class="calendar">
+                  <th class="title1">2022년 3월</th>
+                  <tbody style="margin-top:30px;">
+                    <tr class="week">
+                      <td class="day">일</td>
+                      <td class="day">월</td>
+                      <td class="day">화</td>
+                      <td class="day">수</td>
+                      <td class="day">목</td>
+                      <td class="day">금</td>
+                      <td class="day">토</td>
+                    </tr>
+                    <tr>
+                      <!-- 달력 첫 번째 줄-->
+                      <td class="calendar_days" roll="button"> </td>
+                      <td class="calendar_days" roll="button"> </td>
+                      <td class="calendar_days" roll="button"> </td>
+                      <td class="calendar_days" roll="button"> </td>
+                      <td class="calendar_days" roll="button"> </td>
+                      <td class="calendar_days" roll="button"> </td>
+                      <td class="calendar_days" roll="button"> </td>
+                    </tr>
+                    <tr>
+                      <!-- 달력 두 번째 줄-->
+                      <td class="calendar_days" roll="button"> </td>
+                      <td class="calendar_days" roll="button"> </td>
+                      <td class="calendar_days" roll="button"> </td>
+                      <td class="calendar_days" roll="button"> </td>
+                      <td class="calendar_days" roll="button"> </td>
+                      <td class="calendar_days" roll="button"> </td>
+                      <td class="calendar_days" roll="button"> </td>
+                    </tr>
+                    <tr>
+                      <!-- 달력 세 번째 줄-->
+                      <td class="calendar_days" roll="button"> </td>
+                      <td class="calendar_days" roll="button"> </td>
+                      <td class="calendar_days" roll="button"> </td>
+                      <td class="calendar_days" roll="button"> </td>
+                      <td class="calendar_days" roll="button"> </td>
+                      <td class="calendar_days" roll="button"> </td>
+                      <td class="calendar_days" roll="button"> </td>
+                    </tr>
+                    <tr>
+                      <!-- 달력 네 번째 줄-->
+                      <td class="calendar_days" roll="button"> </td>
+                      <td class="calendar_days" roll="button"> </td>
+                      <td class="calendar_days" roll="button"> </td>
+                      <td class="calendar_days" roll="button"> </td>
+                      <td class="calendar_days" roll="button"> </td>
+                      <td class="calendar_days" roll="button"> </td>
+                      <td class="calendar_days" roll="button"> </td>
+                    </tr>
+                    <tr>
+                      <!-- 달력 다섯 번째 줄-->
+                      <td class="calendar_days" roll="button"> </td>
+                      <td class="calendar_days" roll="button"> </td>
+                      <td class="calendar_days" roll="button"> </td>
+                      <td class="calendar_days" roll="button"> </td>
+                      <td class="calendar_days" roll="button"> </td>
+                      <td class="calendar_days" roll="button"> </td>
+                      <td class="calendar_days" roll="button"> </td>
+                    </tr>
+                    <tr>
+                      <!-- 달력 여섯 번째 줄-->
+                      <td class="calendar_days" roll="button"> </td>
+                      <td class="calendar_days" roll="button"> </td>
+                      <td class="calendar_days" roll="button"> </td>
+                      <td class="calendar_days" roll="button"> </td>
+                      <td class="calendar_days" roll="button"> </td>
+                      <td class="calendar_days" roll="button"> </td>
+                      <td class="calendar_days" roll="button"> </td>
+                    </tr>
+                  </tbody>
+                </table>
+      
+              </div>
+            </div>
+      
+            <div class="main__arr-2 absolute" style="top:640px; left:790px;"><a href="#"><img src="https://i.imgur.com/wgTRIy7.png" alt=""></a></div>
+            <div class="absolute main__line-2" style="top:620px; left:890px;"><img src="https://i.imgur.com/qCRhduV.png" alt=""></div>
+            <div class="box-count box-1" style="color:rgba(255,255,255,1); user-select:none;">
+              <span class="box-count__minus absolute" style="top:636px; left:940px; font-size:14px; cursor:pointer;">-</span>
+              <span class="box-count__num absolute" style="font-size:20px; top:631.5px; left:958px;">0</span>
+              <span class="box-count__plus absolute" style="font-size:14px; top:636px; left:980px; cursor:pointer;">+</span>
+            </div>
+            <div class="box-count box-2" style="color:rgba(255,255,255,1); user-select:none;">
+              <span class="box-count__minus absolute" style="top:636px; left:1028px; font-size:14px; cursor:pointer;">-</span>
+              <span class="box-count__num absolute" style="font-size:20px; top:631.5px; left:1046px;">0</span>
+              <span class="box-count__plus absolute" style="font-size:14px; top:636px; left:1068px; cursor:pointer;">+</span>
+            </div>
+            <div class="box-count box-3" style="color:rgba(255,255,255,1);">
+              <span class="box-count__minus absolute" style="top:636px; left:1116px; font-size:14px; cursor:pointer;">-</span>
+              <span class="box-count__num absolute" style="font-size:20px; top:631.5px; left:1134px;">0</span>
+              <span class="box-count__plus absolute" style="font-size:14px; top:636px; left:1156px; cursor:pointer;">+</span>
+            </div>
+            <div class="absolute main__line-3" style="top:606px; left:1194px;"><img src="https://i.imgur.com/uJQ8VyX.png" alt=""></div>
+            <div class="absolute text text__middle" style="top:627px; left:1243px; color:rgba(255,255,255,1); z-index:10; font-size:20px;"><a href="#"><span>SEARCH</span></a></div>
+            <img src="https://i.imgur.com/g1rr4IY.png" alt="" class="absolute main-1__scroll" style="top:900px; left:50%; transform:translateX(-50%);">
+          </div>
+        </section>
+        <!-- main-2 -->
+        <section class="ROOM con mx-auto " style="height:1000px;">
+          <div class="ROOM_title">
+            <h1 style="margin-top:-72px;">ROOM</h1>
+            <hr>
+            <span class="gothic" style="margin-top:-50px;">광화문에 위치한 현대적인 감각의 포시즌스 서울 호텔은 포시즌스만의 서비스를 선보이는 특별한 공간입니다. <br> <br>역사적인 왕궁 유적들 사이 유리와 철조로 지어진 건축물을 품은 서울은 전통적인 느낌이 물씬한 동시에, <br> <br>미래 지향적인 감각이 가득한 역동적인 도시입니다. <br> <br>바닥에서 천장까지 통유리가 설치된 객실에서 밖을 내다보면, 서울의 역동적인 풍경이 한눈에 펼쳐집니다. </span>
+            <div class="bt-container">
+              <a href="#" class="room-button gothic">목록보기 </a>
+              <a href="sub_01.html" class="room-button gothic">예약하기</a>
+            </div>
+          </div>
+          <div class="js-horizontal-collapse  horizontal-collapse" data-item-min-width="180" data-item-max-width="1380">
+            <ul class="horizontal-collapse__inner">
+              <!-- 01 Family__ROOM   -->
+              <li class="js-horizontal-collapse-item  horizontal-collapse__item  horizontal-collapse__item--1" tabindex="0" role="button">
+                <div class="js-horizontal-collapse-item-inner  horizontal-collapse__item-inner">
+                  <div class="horizontal-collapse__inactive-content">
+                    <h2 class="horizontal-collapse__heading">Family Room</h2>
+                  </div>
+                  <div class="horizontal-collapse__active-content">
+                    <h2 class="horizontal-collapse__heading">Family Room</h2>
+                    <p class="horizontal-collapse__body">온 가족을 위한 여유로운 객실 공간과 함께 추가로 제공되는 <br>소파베드, 워크인 클로짓, 대형 레인 샤워, 별도의 스파 욕조를 갖추어 내 집 같은 편안함을 선사합니다.</p>
+                    <a class="horizontal-collapse__link" href="#" target="_top">자세히 보기</a>
+                  </div>
+                </div>
+              </li>
+              <!-- 02 Suite Room   -->
+              <li class="js-horizontal-collapse-item  horizontal-collapse__item  horizontal-collapse__item--2" tabindex="0" role="button">
+                <div class="js-horizontal-collapse-item-inner  horizontal-collapse__item-inner">
+                  <div class="horizontal-collapse__inactive-content">
+                    <h2 class="horizontal-collapse__heading">Suite Room</h2>
+                  </div>
+                  <div class="horizontal-collapse__active-content">
+                    <h2 class="horizontal-collapse__heading">Suite Room</h2>
+                    <p class="horizontal-collapse__body">통유리창으로 가득 들어오는 자연광과 180도로 펼쳐지는 <br>서울의 도심 전망을 배경으로, 업무와 휴식을 위해 완벽한 공간을 제공합니다.</p>
+                    <a class="horizontal-collapse__link" href="#" target="_top">자세히 보기</a>
+                  </div>
+                </div>
+              </li>
+              <!-- 03 Deluxe King   -->
+              <li class="js-horizontal-collapse-item  horizontal-collapse__item  horizontal-collapse__item--3" tabindex="0" role="button">
+                <div class="js-horizontal-collapse-item-inner  horizontal-collapse__item-inner">
+                  <div class="horizontal-collapse__inactive-content">
+                    <h2 class="horizontal-collapse__heading">Deluxe King</h2>
+                  </div>
+                  <div class="horizontal-collapse__active-content">
+                    <h2 class="horizontal-collapse__heading">Deluxe King</h2>
+                    <p class="horizontal-collapse__body">오픈 콘셉트 레이아웃과 독특한 커브형 창으로 산뜻하고 현대적인 인테리어를 선보입니다. <br>바닥에서 천장까지 탁 트인 통유리 창으로 도시와 산이 조각처럼 어우러진 전망을 감상할 수 있습니다.</p>
+                    <a class="horizontal-collapse__link" href="#" target="_top">자세히 보기</a>
+                  </div>
+                </div>
+              </li>
+              <!-- 04 Deluxe Twin   -->
+              <li class="js-horizontal-collapse-item  horizontal-collapse__item  horizontal-collapse__item--4" tabindex="0" role="button">
+                <div class="js-horizontal-collapse-item-inner  horizontal-collapse__item-inner">
+                  <div class="horizontal-collapse__inactive-content">
+                    <h2 class="horizontal-collapse__heading">Deluxe Twin</h2>
+                  </div>
+                  <div class="horizontal-collapse__active-content">
+                    <h2 class="horizontal-collapse__heading">Deluxe Twin</h2>
+                    <p class="horizontal-collapse__body">
+                      서울의 도심 전망을 내려다보는 대리석 바닥의 거실 공간으로 <br>분리된 침실에서 조용하고 평화로운 휴식을 즐기실 수 있습니다.</p>
+                    <a class="horizontal-collapse__link" href="#" target="_top">자세히 보기</a>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <!-- main-3 -->
+        <section id="offer" class="OFFER con mx-auto pt-10 " style="height:1000px;">
+          <header></header>
+          <span class="title constantia">OFFER</span>
+          <div class="content">
+      
+            <!-- Mong-Friendly -->
+            <div class="offer__card Mong-Friendly">
+              <div class="offer__card__img">
+                <a href="#"><img class="Mong-Friendly-card" src="https://cdn.jsdelivr.net/gh/seoungmohwa/N-nanda-img/project/offer_imge_01.png" alt="Mong-Friendly"></a>
+              </div>
+              <div class="offer__card__text__down ">
+                <span class="card-text gothic">Mong-Friendly</span>
+                <span><i class="fa-solid fa-right-long"></i></span>
+              </div>
+            </div>
+      
+            <!-- 02 FAMILY FESTIVE FUN -->
+            <div class="offer__card  FAMILY FESTIVE FUN">
+              <div class="offer__card__img offer__card__img__down">
+                <a href="#"><img class="FAMILY-card" src="https://cdn.jsdelivr.net/gh/seoungmohwa/N-nanda-img/project/offer_imge_02.png" alt="FAMILY"></a>
+              </div>
+              <div class="offer__card__text__up">
+                <span class="card-text gothic">FAMILY FESTIVE FUN</span>
+                <span><i class="fa-solid fa-right-long"></i></span>
+              </div>
+            </div>
+      
+            <!-- 03 VALENTINE’S DAY -->
+            <div class="offer__card VALENTINE’S DAY ">
+              <div class="offer__card__img">
+                <a href="#"><img class="VALENTINE-card" src="https://cdn.jsdelivr.net/gh/seoungmohwa/N-nanda-img/project/offer_imgae_03.png" alt="VALENTINE"></a>
+              </div>
+              <div class="offer__card__text__down">
+                <span class="card-text gothic">VALENTINE’S DAY</span>
+                <span><i class="fa-solid fa-right-long"></i></span>
+              </div>
+            </div>
+            <!-- 04 BED AND BREAKFAST -->
+            <div class="offer__card BED AND BREAKFAST ">
+              <div class="offer__card__img offer__card__img__down">
+                <a href="#"><img class="BREAKFAST-card" src="https://cdn.jsdelivr.net/gh/seoungmohwa/N-nanda-img/project/offer_image_04.png" alt="BREAKFAST"></a>
+              </div>
+              <div class="offer__card__text__up">
+                <span class="card-text gothic">BED AND BREAKFAST</span>
+                <span><i class="fa-solid fa-right-long"></i></span>
+              </div>
+            </div>
+      
+          </div>
+      
+        </section>
+        <!-- main-4 -->
+        <section class="con mx-auto " style="height:1000px;">
+          <h1 class="ml-36 pt-28 constantia" style="font-size:58px;">DINNING</h1>
+          <div class="swiper-box-1 pt-8">
+            <!-- Slider main container -->
+            <div class="swiper mt-5">
+              <!-- Additional required wrapper -->
+              <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">
+                  <div class="din-img-1 din-img flex" style="">
+                    <img src="https://cdn.jsdelivr.net/gh/seoungmohwa/N-nanda-img/webimg/dinning_01.png" alt="">
+                    <div class="txt-2 flex flex-col center relative ml-16" style="justify-content: center; margin-top:-100px;">
+                      <h1 class="constantia" style="font-size:70px;"> Charles . H</h1>
+                      <h2 class="constantia" style="font-size:70px; margin-top:-30px; margin-left:3px;"> Bar</h2>
+                      <h2 class="mt-3 gothic ml-2 text-lg">지하의 비밀 통로를 통해 연결되는
+                        <br>
+                        이국적이고 화려한 매력이 가득한 공간
+                      </h2>
+                      <h3 class="mt-10 gothic ml-64 text-sm" style="cursor:pointer; font-weight:bold;">
+                        예약하기 >
+                      </h3>
+      
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="din-img-2 din-img flex">
+                    <div class="이미지" style="width:840px; height:540px; background-image:url(https://cdn.jsdelivr.net/gh/seoungmohwa/N-nanda-img/webimg/dinning-02.png);"> </div>
+                    <div class="txt-2 flex flex-col center relative" style="height:540px; justify-content: center; margin-left:50px;">
+                      <h1 class="constantia" style="font-size:70px;"> The Garden</h1>
+                      <h2 class="constantia" style="font-size:70px; margin-top:-30px; margin-left:3px;">Terrace</h2>
+                      <h2 class="mt-3 gothic ml-2 text-lg">서울의 매력적인 도심 전망을 배경으로
+                        <br>
+                        최고급 햄버거와 세계 각국의
+                        <br>
+                        수제 맥주/와인/칵테일을 즐길 수 있는
+                        <br>
+                        야외 테라스
+                      </h2>
+                      <h3 class="mt-10 gothic ml-72 text-sm" style="cursor:pointer; font-weight:bold;">
+                        예약하기 >
+                      </h3>
+      
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="din-img-3 din-img flex">
+                    <div class="이미지" style="width:840px; height:540px; background-image:url(https://cdn.jsdelivr.net/gh/seoungmohwa/N-nanda-img/webimg/dinning-03.png);"> </div>
+                    <div class="txt-2 flex flex-col center relative" style="height:540px; justify-content: center; margin-left:50px;">
+                      <h1 class="constantia" style="font-size:70px;"> The Market </h1>
+                      <h2 class="constantia" style="font-size:70px; margin-top:-30px; margin-left:3px;">Kitchen</h2>
+                      <h2 class="mt-3 gothic ml-2 text-lg">세계 각국의 요리와 다양한 맛을 <br>생생하게 만날 수 있는 최고 레스토랑</h2>
+                      <h3 class="mt-10 gothic ml-72 text-sm" style="cursor:pointer; font-weight:bold;">
+                        예약하기 >
+                      </h3>
+      
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- If we need navigation buttons -->
+            <div class="relative" style="right:-1225px; top:-400px;">
+      
+              <div class="swiper-button-next absolute" style="left:3%; padding:20px;"></div>
+              <div class="swiper-button-prev absolute " style="left:0; padding:20px;"></div>
+            </div>
+          </div>
+        </section>
+        <!-- main-5 -->
+        <section id="life" class="con mx-auto  relative" style="height:1000px;">
+          <h1 class="ml-36 pt-28 constantia" style="font-size:58px;">LIFE STYLE</h1>
+          <h2 class="gothic absolute" style="top:250px; left:145px; font-size:18px; line-height:15px;">포시즌스 서울 에서는 <br><br>고객의 건강한 라이프스타일을 위해 <br><br>필요한 모든 서비스를 언제든지 제공합니다.</h2>
+          <div class="swiper-box-2 mt-12">
+            <!-- Slider main container -->
+            <div class="swiper">
+              <!-- Additional required wrapper -->
+              <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">
+                  <div class="pool-img flex" style="">
+                    <img src="https://cdn.jsdelivr.net/gh/seoungmohwa/N-nanda-img/webimg/life_01.png" alt="">
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="fit-img flex" style="">
+                    <img src="https://cdn.jsdelivr.net/gh/seoungmohwa/N-nanda-img/webimg/life_02.png" alt="">
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="spa-img flex" style="">
+                    <img src="https://cdn.jsdelivr.net/gh/seoungmohwa/N-nanda-img/webimg/life_03.png" alt="">
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="wed-img flex" style="">
+                    <img src="https://cdn.jsdelivr.net/gh/seoungmohwa/N-nanda-img/webimg/life_04.png" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- If we need navigation buttons -->
+          <div class="button-container relative flex" style="margin-left:160px; margin-top:-50px;">
+            <button class="prev absolute " style="left:-15px; padding:10px;">
+              <input class="" type="image" id="image" alt="Login" src="https://cdn.jsdelivr.net/gh/seoungmohwa/N-nanda-img/webimg/r-bt.png">
+            </button>
+            <button class="next absolute" style="left:30px; padding:10px;">
+              <input type="image" id="image" alt="Login" src="https://cdn.jsdelivr.net/gh/seoungmohwa/N-nanda-img/webimg/l-bt.png">
+      
+            </button>
+          </div>
+          </div>
+        </section>
+        <!-- 푸터 -->
+        <section class="con mx-auto" style="height:200px;">
+          <div class="footer w-full h-full relative" style="background-color:#232323; color:#ffffff;">
+            <div class="logo constantia absolute" style="font-size:22px; top:80.94px; left:309px;">
+              <a href="#"><span>FOURSEASONS</span></a>
+            </div>
+            <div class="p1 gothic absolute" style="font-size:14px; top:85.66px; left:604px;">
+              <a href="#" class="mr-6"><span>사이트맵</span></a>
+              <a href="#" class="mr-6"><span>고객센터</span></a>
+              <a href="#" class="mr-6"><span>이용약관</span></a>
+              <a href="#" class="mr-6"><span>멤버십 이용약관</span></a>
+              <a href="#" class="mr-6"><span>금액권 및 제품교환권 이용약관</span></a>
+              <a href="#"><span>개인정보처리방침</span></a>
+            </div>
+            <div class="p2 gothic absolute" style="font-size:14px; top:106px; left:604px;">
+              <a href="#" class="mr-6"><span>영상정보처리기기운영·관리방침</span></a>
+              <a href="#"><span>이메일무단수집금지</span></a>
+            </div>
+            <div class="p3 gothic absolute" style="font-size:12px; color:#bababa; top:134.4px; left:604px;">
+              <a href="#"><span>서울 종로구 새문안로 97 (당주동, 우편번호 03183)</span></a>
+              <br>
+              <a href="#"><span>2022 fourseasons ALL rights reserved </span></a>
+            </div>
+            <div class="icon">
+              <a href="#" class="absolute" style="top:84.75px; left:1475px;"><img src="https://cdn.jsdelivr.net/gh/seoungmohwa/N-nanda-img/webimg/ch.png" alt="" class=""></a>
+              <a href="#" class="absolute" style="top:84.75px; left:1525px;"><img src="https://cdn.jsdelivr.net/gh/seoungmohwa/N-nanda-img/webimg/sns.png" alt=""></a>
+              <a href="#" class="absolute" style="top:84.75px; left:1575px;"><img src="https://cdn.jsdelivr.net/gh/seoungmohwa/N-nanda-img/webimg/sns_01.png" alt=""></a>
+            </div>
+          </div>
+        </section>
+      </section>
+</body>
+</html>
